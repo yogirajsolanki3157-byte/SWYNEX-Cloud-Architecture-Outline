@@ -25,7 +25,7 @@ Project Objectives
 | Amazon DynamoDB | Stores product information |
 | AWS IAM | Manages access and permissions |
 | Amazon CloudWatch | Monitors logs and metrics |
-Architecture Components
+##Architecture Components
 
 1. Compute
 
