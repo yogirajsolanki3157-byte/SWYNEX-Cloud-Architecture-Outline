@@ -29,5 +29,5 @@ Project Objectives
 
 ## Architecture Components
 ## AWS Cloud Architecture Diagram
-![AWS Cloud Architecture](aws_flowchart.jpeg)
 
+![AWS Cloud Architecture](aws%20flowchart.jpeg)
