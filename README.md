@@ -14,17 +14,17 @@ Project Objectives
 - Explore AWS serverless services.
 - Understand cloud security and monitoring.
 
-AWS Services Used
+## AWS Services Used
 
-AWS Service| Purpose
-Amazon S3| Stores website files and images
-Amazon CloudFront| Delivers website content
-Amazon API Gateway| Manages API requests
-AWS Lambda| Executes application code
-Amazon DynamoDB| Stores product information
-AWS IAM| Manages access and permissions
-Amazon CloudWatch| Monitors application logs and metrics
-
+| AWS Service | Purpose |
+|---|---|
+| Amazon S3 | Stores website files and images |
+| Amazon CloudFront | Delivers website content |
+| Amazon API Gateway | Manages API requests |
+| AWS Lambda | Executes application code |
+| Amazon DynamoDB | Stores product information |
+| AWS IAM | Manages access and permissions |
+| Amazon CloudWatch | Monitors logs and metrics |
 Architecture Components
 
 1. Compute
