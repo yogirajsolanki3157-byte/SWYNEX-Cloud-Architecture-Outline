@@ -25,7 +25,34 @@ Project Objectives
 | Amazon DynamoDB | Stores product information |
 | AWS IAM | Manages access and permissions |
 | Amazon CloudWatch | Monitors logs and metrics |
-##Architecture Components
+
+
+## Architecture Components
+## AWS Cloud Architecture Diagram
+
+```mermaid
+flowchart TD
+    U[Customer / User]
+
+    CF[Amazon CloudFront]
+    S3[Amazon S3 - Static Website]
+
+    API[Amazon API Gateway]
+    L[AWS Lambda]
+    DB[(Amazon DynamoDB)]
+
+    IAM[AWS IAM - Access Control]
+    CW[Amazon CloudWatch - Monitoring]
+
+    U --> CF
+    CF --> S3
+    U --> API
+    API --> L
+    L --> DB
+
+    IAM -. Permissions .-> L
+    CW -. Logs and Metrics .-> L
+    CW -. Monitoring .-> API
 
 1. Compute
 
