@@ -28,7 +28,7 @@ Project Objectives
 
 
 ## Architecture Components
-## AWS Cloud Architecture Diagram
+## AWS Cloud Architecture Diagram, add:![AWS Cloud Architecture](aws_flowchart.jpeg)
 
 ```mermaid
 flowchart TD
